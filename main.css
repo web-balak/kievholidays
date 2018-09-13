@@ -1,0 +1,532 @@
+                                            /*  !!!    NAVBAR-start   !!!  */
+
+.navbar.navbar-inverse {
+ /* background: #2d2d2d;
+	border-color: #2d2d2d; */
+    background: url(img/doted-surface.png);
+   box-shadow: 0 0 10px rgba(0,0,0,0.8); /* Параметры тени */    
+   margin-bottom: 0px;
+    opacity: 0.9;
+   
+}
+
+/*.animated {
+ animation-iteration-count: infinite;
+ 
+} */
+
+
+.navbar-header {
+    
+    height: 80px;
+    padding-left: 35px;
+
+}
+
+.navbar-brand {
+    background: linear-gradient(900deg, #0400de 40%, #faff00 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+     transition: 0.7s;
+    margin-top: 15px;
+    
+ 
+}
+
+
+
+.navbar-header a {
+
+
+    font-family: monospace;
+    font-size: 25px;
+}
+
+/*.navbar-header a:hover,
+.navbar-header a:focus
+{
+    font-family: Arial;
+    font-size: 30px;
+} */
+
+
+#right-links li a {
+   font-family: Arial;
+   
+    font-size: 21px;
+    font-weight: 500;
+    color: #999999;
+   margin-top: 15px;
+    margin-bottom:15px;
+}
+
+#right-links li a:hover {
+     transition: 0.2s;
+font-family: 'Muli', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    border-bottom: 2.5px solid white;
+   
+}
+
+
+.navbar-header > button {
+    margin-top: 20px;
+    padding: 8px;
+    box-shadow: 0 0 4px rgba(253, 252, 252, 0.8); /* Параметры тени */ 
+}
+
+/*#myNavbar .navbar-nav > li > a {
+     color: #ffffff;
+    background-color: #0d0101;
+} */
+
+#myNavbar .navbar-nav .active a {
+    background: none;
+    color: white;
+   /* border-bottom: 2px solid white;
+     background-color: #DCEBF1; 
+       background: none; */
+
+    
+}
+
+
+#myNavbar .navbar-nav li a:hover, 
+#myNavbar .navbar-nav li a:focus {
+    color: white;
+    background-color: none;
+   /* box-shadow: 0 0 10px rgba(226,212,204,0.5);  Параметры тени */
+}
+
+                /*   !!!   NAVBAR-finish   !!!  */                           
+
+
+                            /* CAROUSEL */
+
+.carousel-inner{
+    width: 100%;
+    
+}
+
+#carousel-example-generic{
+margin-top: 81px;
+    
+}
+
+.item h2{
+    position: absolute;
+    top: 0;  
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    padding-top: 3%;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+ 
+    font-family:  slider-regular;
+  
+    /*"trebuchet ms", sans-serif*/
+}
+
+
+
+
+
+
+                            /* CAROUSEL */
+
+                                 /* ГОЛУБАЯ ВСТАВКА */
+
+
+
+.blue {
+	background: #1259E0;
+    
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.blue h4 {
+	color: #FFDD00;
+	font-weight: 700;
+}
+
+.blue p {
+	color: #FFDD00;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+                                   /* ГОЛУБАЯ ВСТАВКА */
+
+                                     /* ABOUT */
+
+#about{
+    background: url(img/doted-surface.png);
+}
+
+
+.about-img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.about-img:hover{
+    -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+
+.about-img img{
+    height: 500px;
+    width: 350px;
+}
+
+
+.about-description{
+    margin-top: 40px;
+     margin-bottom: 40px;
+}
+
+.about-description p{
+    color: white;
+    font-size: 22px;
+    font-family: Tahoma;
+}
+
+
+                                                            /* Servise */
+
+#services{
+    background: url(img/doted-surface.png);
+}
+
+
+.serv-img{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.services-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#services  p{
+     font-family:;
+    color: white;
+    font-size: 24px;
+     border: 1px solid white;
+}
+
+
+#services .par{
+   
+    margin-top: 35px;
+}
+
+
+.serv-description{
+    margin-top: 40px;
+     margin-bottom: 15px; 
+}
+.services-description{
+    margin-top: 20px;
+     margin-bottom: 20px;
+    
+}
+
+.services-description ul{
+    font-family: sans-serif;
+    color: white;
+    font-size: 22px; 
+   
+}
+
+.serv-description ul{
+    font-family: sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+.services-description ul>li{
+    font-family: Arial;
+    color: white;
+    font-size: 18px;
+}
+.serv-description ul>li{
+    font-family: Arial;
+    color: white;
+    font-size: 18px;
+}
+
+.services-description h2{
+    
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.serv-description h2{
+    
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+
+                                                        /* prices */
+
+#prices{
+    background: url(img/doted-surface.png);
+}
+
+#prices p{
+    font-weight: 500;
+      font-family: Arial;
+    color: white;
+    font-size: 28px;
+}
+
+#prices .pric{
+      margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#prices li{
+    font-weight: 350;
+     color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.fa-check{
+    padding-top: 11px;
+  
+}
+
+
+
+                                                /* prices Finish */
+
+                                                /*   contacts     */
+
+
+#contacts {
+     background: url(img/doted-surface.png);
+  
+    
+}
+
+
+.map{
+    margin: 30px 0;
+}
+
+#contacts{
+    
+    padding: 25px 0 0 0;
+  }
+
+.contact{
+    margin: 30px 0;
+}
+
+  .mail-message-area{
+    width:100%;
+    padding:0 15px;
+  }
+
+  .mail-message{
+    width: 100%;
+    background:rgba(255,255,255, 0.8) !important;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    transition: all 0.7s;
+    margin:0 auto;
+    border-radius: 0;
+  }
+
+  .not-visible-message{
+    height:0px;
+    opacity: 0;
+  }
+
+  .visible-message{
+    height:auto;
+    opacity: 1;
+    margin:25px auto 0;
+  }
+
+/* Input Styles */
+
+  .form{
+    width: 100%;
+    padding: 15px;
+    background:#f8f8f8;
+      border-radius: 5px;
+    border:1px solid rgba(0, 0, 0, 0.075);
+      
+    margin-bottom:25px;
+    color:#727272 !important;
+    font-size:13px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .form:hover{
+       box-shadow: 0 0 4px #1259E0; /* Параметры тени */ 
+    border:1px solid #1259E0;
+  }
+
+  .form:focus{
+      box-shadow: 0 0 4px #1259E0; /* Параметры тени */ 
+    color: white;
+    outline: none;
+    border:1px solid #1259E0;
+  }
+
+  .textarea{
+    height: 200px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+/* Generic Button Styles */
+
+  .button{
+    padding:8px 12px;
+    background:#0A5175;
+    display: block;
+    width:120px;
+    margin:10px 0 0px 0;
+    border-radius:3px;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    text-align:center;
+    font-size:0.8em;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+  .button:hover{
+    background:#8BC3A3;
+    color:white;
+  }
+
+/* Send Button Styles */
+
+  .form-btn{
+    width:180px;
+    display: block;
+    height: auto;
+    padding:15px;
+    color:#FFDD00;
+    background:#1259E0;
+    border: 1px solid #001846;
+    border-radius:3px;
+    outline: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    margin:auto;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+    -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
+  }
+
+
+
+  .form-btn:active{
+    opacity: 0.5;
+  }
+center{
+  margin-top:330px;
+}
+input {
+    
+    position: relative;
+    z-index: 0;
+}
+.contact-form .fullwidth {
+    padding-bottom: 30px;
+}
+
+
+                                                                        /* Contacts finish */
+
+
+                                                            /* FOOOTER start*/
+
+
+.footer{
+    height: 120px;
+    width: 100%;
+     background: url(img/doted-surface.png);
+   box-shadow: 0 0 10px rgba(0,0,0,0.8); /* Параметры тени */    
+   margin-bottom: 0px;
+    opacity: 0.8;
+    padding-top: 45px;
+     
+
+}
+
+.footer .made{
+    color: white;
+   padding: 0 0;
+}
+
+
+                                                        /* SocialNetworks */
+.fa{
+    color: #FFDD00;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+      
+}
+
+.fa:hover{
+     color:  #1259E0;
+    
+}
+
+
+
+                                /* BUTTOn GO-TOP */
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ffff00; /* Set a background color */
+   /* Text color */
+    font-style: bold;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 8px 3px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 7px rgba(0,0,0,0.5);
+}
+
+.fa-chevron-up{
+     color: darkblue; 
+}
